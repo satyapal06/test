@@ -7,65 +7,49 @@
     sling:resourceType="sling:redirect"
     sling:target="/geohome">
     <dam/>
+    <campaigns/>
     <usergenerated/>
     <launches/>
-    <campaigns/>
     <communities/>
     <sites/>
     <phonegap/>
     <community-components/>
     <catalogs/>
     <publications/>
-    <unilever-iea/>
     <forms/>
-    <dove/>
     <unilever/>
-    <junittest/>
-    <whitelabel/>
-    <magnum/>
+    <dove/>
+    <helloworld.txt/>
+    <unilever-iea/>
     <dig/>
+    <magnum/>
     <digital-hub/>
-    <omo/>
-    <axe/>
     <connectedworld/>
+    <axe/>
+    <omo/>
+    <tresemme/>
+    <sunsilk/>
     <rexona/>
     <knorr/>
-    <tresemme/>
-    <stives/>
-    <sunsilk/>
-    <lipton/>
+    <whitelabel/>
     <productSchemaCategories/>
     <productSchemaMarkets/>
+    <pimschema/>
+    <rep:policy/>
     <hellmanns/>
     <signal/>
-    <crx/>
-    <pimschema/>
     <recipedia/>
-    <rep:policy/>
+    <lipton/>
     <ponds/>
-    <walls/>
     <lux/>
     <bestfoods/>
-    <training/>
-    <lbp/>
-    <apc/>
-    <dove1/>
-    <dove2/>
-    <dove3/>
-    <dove4/>
-    <hairthemeshowcase/>
     <luxglobal/>
-    <Sample-Brand/>
     <brandshowcase/>
+    <apc/>
+    <crx/>
+    <lbp/>
     <solo/>
     <blueband/>
     <conimex/>
     <becelproactiv/>
-    <zwitsal/>
-    <geometrixx-outdoors/>
-    <geometrixx-outdoors-mobile/>
-    <geometrixx/>
-    <geometrixx_mobile/>
-    <geometrixx-media/>
-    <geometrixx-gov/>
 </jcr:root>

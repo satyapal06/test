@@ -13,7 +13,7 @@
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Belgium"
-        jcr:uuid="2c8a05a2-f47a-4682-872f-4308568a62de"
+        jcr:uuid="63819375-8521-4378-a8b7-15e87730edb1"
         sling:resourceType="unilever-aem/components/page/schemaConfigurationPage"
         tenant="whitelabel"
         uniquePageId="1389938297259">
@@ -4519,7 +4519,6 @@
                 column="AB"
                 componentName="schemaConfiguration"
                 dataApplicableBrand="true"
-                dataMustContain=""
                 description="Image Format of Asset"
                 mandatoryDefaultValue="png"
                 maxLength=""

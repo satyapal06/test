@@ -2,31 +2,30 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2016-11-30T16:31:21.405Z"
-        cq:lastModifiedBy="kneogy@sapient.com"
-        cq:lastRolledout="{Date}2016-11-30T16:31:21.410Z"
-        cq:lastRolledoutBy="kneogy@sapient.com"
+        cq:lastModified="{Date}2017-03-06T05:46:09.005Z"
+        cq:lastModifiedBy="averma27@sapient.com"
         cq:template="/apps/unilever-aem/templates/schemaConfigurationPageTemplate"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Spain"
-        jcr:uuid="f67f8597-7bdc-4d06-b78d-0b7aafb3a0a7"
+        jcr:uuid="8a2d1f9c-1b62-4864-b995-6b4d812d6a52"
         sling:resourceType="unilever-aem/components/page/schemaConfigurationPage"
+        parentProductSchemaPath="/content/productSchemaMarkets/personalCare/ES"
         tenant="whitelabel"
         uniquePageId="1389938297259">
         <par
-            cq:lastRolledout="{Date}2016-11-30T16:31:13.438Z"
+            cq:lastRolledout="{Date}2016-12-10T15:54:09.507Z"
             cq:lastRolledoutBy="kneogy@sapient.com"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="foundation/components/parsys">
             <schemaconfiguration
-                cq:lastRolledout="{Date}2016-11-30T16:31:16.809Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.427Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T16:56:04.431+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:16.795Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.416Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -45,11 +44,11 @@
                 pimFieldDescription="Product Category (Enter N/A if not applicable)"
                 regex=""/>
             <schemaconfiguration_1606851681
-                cq:lastRolledout="{Date}2016-11-30T16:31:16.835Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.446Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T16:57:57.736+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:16.823Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.434Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -68,11 +67,11 @@
                 pimFieldDescription="Copy type (Enter Standard if not sure)"
                 regex="^(Standard|Enhanced)$"/>
             <schemaconfiguration_370863464
-                cq:lastRolledout="{Date}2016-11-30T16:31:16.872Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.464Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T16:58:41.042+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:16.851Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.452Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -90,11 +89,11 @@
                 pimFieldDescription="Content type (Enter Product)"
                 regex="^(Product|Variation|product|variation)$"/>
             <schemaconfiguration_1386243609
-                cq:lastRolledout="{Date}2016-11-30T16:31:16.899Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.485Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:03:01.213+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:16.879Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.472Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -115,11 +114,11 @@
                 pimFieldDescription="Status"
                 regex="^(new|update|delete|New|Update|Delete|NEW|UPDATE|DELETE)$"/>
             <schemaconfiguration_1501989305
-                cq:lastRolledout="{Date}2016-11-30T16:31:16.914Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.503Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:03:01.549+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:16.905Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.492Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -138,11 +137,11 @@
                 pimFieldDescription="Identifier Type (EAN/UPC)"
                 regex="^(EAN|UPC)$"/>
             <schemaconfiguration_2360462
-                cq:lastRolledout="{Date}2016-11-30T16:31:16.929Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.627Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:04:56.356+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:16.920Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.510Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -161,11 +160,11 @@
                 pimFieldDescription="Identifier Value"
                 regex="^\\d+$"/>
             <schemaconfiguration_910353417
-                cq:lastRolledout="{Date}2016-11-30T16:31:16.953Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.650Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:05:22.571+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:16.943Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.637Z"
                 jcr:lastModifiedBy="averma27@sapient.com"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -186,11 +185,11 @@
                 regex="^\\d+$"
                 uniqueValues="true"/>
             <schemaconfiguration_2022300338
-                cq:lastRolledout="{Date}2016-11-30T16:31:16.976Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.672Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:06:17.685+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:16.960Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.659Z"
                 jcr:lastModifiedBy="averma27@sapient.com"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -209,11 +208,11 @@
                 readOnly="true"
                 regex="^\\d+$"/>
             <schemaconfiguration_648156517
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.009Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.692Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:06:59.305+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:16.989Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.679Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -233,11 +232,11 @@
                 pimFieldDescription="Product Name"
                 regex=""/>
             <schemaconfiguration_1314944728
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.038Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.710Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:07:41.967+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.015Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.699Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -256,11 +255,11 @@
                 pimFieldDescription="Product Images (comma separated TAB IDs)"
                 regex=""/>
             <schemaconfiguration_2145645119
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.081Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.729Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:08:41.519+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.050Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.717Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -279,11 +278,11 @@
                 pimFieldDescription="Comma separated ALT Text for product images"
                 regex=""/>
             <schemaconfiguration_1902467965
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.098Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.747Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:09:05.990+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.087Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.736Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -302,11 +301,11 @@
                 pimFieldDescription="Product Ingredients"
                 regex=""/>
             <schemaconfiguration_1731459576
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.121Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.765Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:09:29.768+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.112Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.754Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -325,11 +324,11 @@
                 pimFieldDescription="Product Size"
                 regex=""/>
             <schemaconfiguration_987476113
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.137Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.784Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:10:09.248+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.128Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.773Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -348,11 +347,11 @@
                 pimFieldDescription="Short product title"
                 regex=""/>
             <schemaconfiguration_86139267
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.165Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.801Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:10:44.448+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.154Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.791Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -371,11 +370,11 @@
                 pimFieldDescription="Short product description"
                 regex=""/>
             <schemaconfiguration_787223654
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.189Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.821Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:11:09.408+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.172Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.809Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -395,11 +394,11 @@
                 pimFieldDescription="Product Tags"
                 regex=""/>
             <schemaconfiguration_1775283103
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.206Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.840Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-09-07T16:19:34.191+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.196Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.828Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -418,11 +417,11 @@
                 pimFieldDescription="aemPageName"
                 regex=""/>
             <schemaconfiguration_1611436032
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.223Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.858Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-09-07T16:19:36.239+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.213Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.846Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -441,11 +440,11 @@
                 readOnly="true"
                 regex=""/>
             <schemaconfiguration_1301288809
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.261Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.879Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-09-07T16:19:38.129+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.234Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.866Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -464,11 +463,11 @@
                 pimFieldDescription="productID"
                 regex=""/>
             <schemaconfiguration_1234915480
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.287Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.901Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:11:38.450+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.267Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.887Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -488,11 +487,11 @@
                 regex="^\\d+$"
                 uniqueValues="true"/>
             <schemaconfiguration_1165773722
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.302Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.930Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:13:02.900+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.293Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.913Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -501,6 +500,7 @@
                 clientSideRendering="{Boolean}false"
                 column="U"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Product Id generated by Label Insight for Smartlabel.  This is used to create the link which will redirect users to the 3rd party."
                 mandatoryDefaultValue=""
@@ -510,11 +510,11 @@
                 pimFieldDescription="Label Insight Id (used for Smartlabel integration)"
                 regex=""/>
             <schemaconfiguration_341919459
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.317Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.951Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:13:19.690+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.308Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.938Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -523,6 +523,7 @@
                 clientSideRendering="{Boolean}false"
                 column="V"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="This field is only used by the Item Lookup Service (ILS).  "
                 mandatoryDefaultValue=""
@@ -532,11 +533,11 @@
                 pimFieldDescription="ILS Product name (only for US markets)"
                 regex=""/>
             <schemaconfiguration_625831486
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.333Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.970Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:13:59.724+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.323Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.958Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -555,11 +556,11 @@
                 pimFieldDescription="Disable "
                 regex="^(yes|no)$"/>
             <schemaconfiguration_1263687667
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.348Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:11.988Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:14:16.729+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.338Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.976Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -568,6 +569,7 @@
                 clientSideRendering="{Boolean}false"
                 column="X"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="10 digit UPC code.  This field is only used by Store Locator service in US to allow users to Buy it now"
                 mandatoryDefaultValue=""
@@ -577,11 +579,11 @@
                 pimFieldDescription="shortIdentifierValue"
                 regex=""/>
             <schemaconfiguration_1343635575
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.363Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.007Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:14:36.787+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.353Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:11.995Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -599,11 +601,11 @@
                 pimFieldDescription="Child products"
                 regex=""/>
             <schemaconfiguration_674903647
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.378Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.026Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:14:54.087+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.369Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.014Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -622,11 +624,11 @@
                 pimFieldDescription="Product launch date (dd/mm/yyyy)"
                 regex="^\\d{1,2}\\/\\d{1,2}\\/\\d{4}$"/>
             <schemaconfiguration_943430302
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.395Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.046Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:15:19.489+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.384Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.033Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -645,11 +647,11 @@
                 pimFieldDescription="Image Type (Tall/Short)"
                 regex="^(tall|short|Tall|Short|TALL|SHORT)$"/>
             <schemaconfiguration_974116481
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.410Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.065Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:15:39.453+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.401Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.054Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -668,11 +670,11 @@
                 pimFieldDescription="Product price (without currency symbol)"
                 regex=""/>
             <schemaconfiguration_1508932179
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.426Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.085Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:15:58.480+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.416Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.073Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -691,11 +693,11 @@
                 pimFieldDescription="Long page description"
                 regex=""/>
             <schemaconfiguration_664103358
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.441Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.104Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:06:27.216+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.432Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.092Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -714,11 +716,11 @@
                 pimFieldDescription="Short page description"
                 regex=""/>
             <schemaconfiguration_372062406
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.456Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.123Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:06:29.388+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.447Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.111Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -727,6 +729,7 @@
                 clientSideRendering="{Boolean}false"
                 column="AF"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Title text for the About this content section on the Product Details page."
                 mandatoryDefaultValue=""
@@ -736,11 +739,11 @@
                 pimFieldDescription="aboutThisProductTitle"
                 regex=""/>
             <schemaconfiguration_1302569863
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.474Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.142Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:11:12.496+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.462Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.130Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -759,11 +762,11 @@
                 pimFieldDescription="aboutThisProductBullets"
                 regex=""/>
             <schemaconfiguration_544913504
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.657Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.161Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:11:35.740+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.522Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.149Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -782,11 +785,11 @@
                 pimFieldDescription="aboutThisProductDescription"
                 regex=""/>
             <schemaconfiguration_52086668
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.686Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.180Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:11:37.769+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.663Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.168Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -795,6 +798,7 @@
                 clientSideRendering="{Boolean}false"
                 column="AI"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Text heading for the Perfect For section of the Product Details Page"
                 mandatoryDefaultValue=""
@@ -804,11 +808,11 @@
                 pimFieldDescription="perfectForTitle"
                 regex=""/>
             <schemaconfiguration_1192091119
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.712Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.199Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:12:29.608+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.692Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.188Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -827,11 +831,11 @@
                 pimFieldDescription="perfectForHeadingsAndDescription"
                 regex=""/>
             <schemaconfiguration_1164472738
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.758Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.219Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:12:50.561+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.738Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.207Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -840,6 +844,7 @@
                 clientSideRendering="{Boolean}false"
                 column="AK"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Text heading for the How to use section of the Product Details Page"
                 mandatoryDefaultValue=""
@@ -849,11 +854,11 @@
                 pimFieldDescription="howToUseTitle"
                 regex=""/>
             <schemaconfiguration_1813950373
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.789Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.238Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:12:52.814+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.769Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.226Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -872,11 +877,11 @@
                 pimFieldDescription="howToUseDescription"
                 regex=""/>
             <schemaconfiguration_533322194
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.808Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.258Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:12:56.403+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.799Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.246Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -885,6 +890,7 @@
                 clientSideRendering="{Boolean}false"
                 column="AM"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Text heading for the Try this section of the Product Details Page"
                 mandatoryDefaultValue=""
@@ -894,11 +900,11 @@
                 pimFieldDescription="tryThisTitle"
                 regex=""/>
             <schemaconfiguration_1453366104
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.823Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.277Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:13:06.521+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.814Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.265Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -917,11 +923,11 @@
                 pimFieldDescription="tryThisDescription"
                 regex=""/>
             <schemaconfiguration_206162827
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.838Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.296Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:13:09.958+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.829Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.284Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -940,11 +946,11 @@
                 pimFieldDescription="ingredientsDisclaimer"
                 regex=""/>
             <schemaconfiguration_1848030923
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.852Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.314Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:13:16.470+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.844Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.302Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -963,11 +969,11 @@
                 pimFieldDescription="allergy"
                 regex=""/>
             <schemaconfiguration_855304258
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.866Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.449Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:15:41.664+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.858Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.320Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -985,11 +991,11 @@
                 pimFieldDescription="Serving Size"
                 regex=""/>
             <schemaconfiguration_1639687643
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.887Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.462Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:15:43.961+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.873Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.454Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1007,11 +1013,11 @@
                 pimFieldDescription=" Servings Per  Container"
                 regex=""/>
             <schemaconfiguration_630776783
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.907Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.474Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:16:42.621+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.895Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.467Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1029,11 +1035,11 @@
                 pimFieldDescription=" Calories Amount Per  Portion"
                 regex=""/>
             <schemaconfiguration_915599453
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.925Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.487Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:16:45.110+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.916Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.479Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1051,11 +1057,11 @@
                 pimFieldDescription=" Calories Percentage  Per  Portion"
                 regex=""/>
             <schemaconfiguration_1066932137
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.943Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.499Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:16:47.789+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.931Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.491Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1073,11 +1079,11 @@
                 pimFieldDescription=" Calories Per100g"
                 regex=""/>
             <schemaconfiguration_1490202656
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.961Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.511Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:24:38.655+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.951Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.504Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1095,11 +1101,11 @@
                 pimFieldDescription=" Calories Per100ml"
                 regex=""/>
             <schemaconfiguration_917170158
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.977Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.524Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:24:40.694+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.967Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.516Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1117,11 +1123,11 @@
                 pimFieldDescription=" Calories From Fat"
                 regex=""/>
             <schemaconfiguration_1497989044
-                cq:lastRolledout="{Date}2016-11-30T16:31:17.999Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.536Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:24:42.575+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:17.983Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.528Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1139,11 +1145,11 @@
                 pimFieldDescription=" Total Fat Amount Per Portion"
                 regex=""/>
             <schemaconfiguration_335771146
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.017Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.548Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:24:45.451+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.008Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.541Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1161,11 +1167,11 @@
                 pimFieldDescription=" Total Fat Percentage Per Portion"
                 regex=""/>
             <schemaconfiguration_435284374
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.034Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.561Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:24:47.656+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.024Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.553Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1183,11 +1189,11 @@
                 pimFieldDescription=" Total Fat Per100g"
                 regex=""/>
             <schemaconfiguration_428264124
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.054Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.575Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:24:49.632+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.045Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.565Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1205,11 +1211,11 @@
                 pimFieldDescription=" Total Fat Per100ml"
                 regex=""/>
             <schemaconfiguration_490065834
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.093Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.595Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:24:51.317+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.071Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.582Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1227,11 +1233,11 @@
                 pimFieldDescription=" Saturated Fat Amount Per Portion"
                 regex=""/>
             <schemaconfiguration_358212411
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.124Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.614Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:24:53.138+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.099Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.602Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1249,11 +1255,11 @@
                 pimFieldDescription=" Saturated Fat Percentage Per Portion"
                 regex=""/>
             <schemaconfiguration_469433078
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.151Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.633Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:24:55.899+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.130Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.621Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1271,11 +1277,11 @@
                 pimFieldDescription=" Saturated Fat Per100 g"
                 regex=""/>
             <schemaconfiguration_729371509
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.193Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.653Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:24:58.359+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.173Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.640Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1293,11 +1299,11 @@
                 pimFieldDescription=" Saturated Fat Per100ml"
                 regex=""/>
             <schemaconfiguration_741082577
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.220Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.672Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:25:00.916+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.199Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.660Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1315,11 +1321,11 @@
                 pimFieldDescription=" Trans Fat Amount"
                 regex=""/>
             <schemaconfiguration_1831728541
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.240Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.692Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:25:24.783+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.226Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.679Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1337,11 +1343,11 @@
                 pimFieldDescription=" Trans Fat Percentage"
                 regex=""/>
             <schemaconfiguration_294266908
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.261Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.711Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:25:27.666+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.250Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.699Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1359,11 +1365,11 @@
                 pimFieldDescription=" Trans Fat Per100gm"
                 regex=""/>
             <schemaconfiguration_505543520
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.279Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.731Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:25:29.874+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.269Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.718Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1381,11 +1387,11 @@
                 pimFieldDescription=" Polyunsaturated Fat Amount"
                 regex=""/>
             <schemaconfiguration_2134514628
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.298Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.749Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:25:37.851+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.287Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.738Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1403,11 +1409,11 @@
                 pimFieldDescription=" Polyunsaturated Fat Percentage"
                 regex=""/>
             <schemaconfiguration_124001969
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.319Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.768Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:25:39.917+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.304Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.756Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1425,11 +1431,11 @@
                 pimFieldDescription=" Polyunsaturated Fat Per100g"
                 regex=""/>
             <schemaconfiguration_1665824904
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.404Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.788Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:25:42.375+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.324Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.776Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1447,11 +1453,11 @@
                 pimFieldDescription=" Monounsaturated Fat Amount"
                 regex=""/>
             <schemaconfiguration_216072472
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.419Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.807Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:25:44.550+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.410Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.795Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1469,11 +1475,11 @@
                 pimFieldDescription=" Monounsaturated Fat Percentage"
                 regex=""/>
             <schemaconfiguration_1225419471
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.444Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.826Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:25:46.609+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.430Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.814Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1491,11 +1497,11 @@
                 pimFieldDescription=" Monounsaturated Fat Per100gm"
                 regex=""/>
             <schemaconfiguration_949392663
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.469Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.846Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:46:47.196+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.449Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.834Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1513,11 +1519,11 @@
                 pimFieldDescription=" Cholesterol Amount"
                 regex=""/>
             <schemaconfiguration_245098403
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.537Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.866Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:46:49.410+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.512Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.853Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1535,11 +1541,11 @@
                 pimFieldDescription=" Cholesterol Percentage"
                 regex=""/>
             <schemaconfiguration_1575133076
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.571Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.885Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:46:51.293+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.542Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.873Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1557,11 +1563,11 @@
                 pimFieldDescription=" Cholesterol Per100gm"
                 regex=""/>
             <schemaconfiguration_1526147900
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.600Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.905Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:46:53.401+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.586Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.892Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1579,11 +1585,11 @@
                 pimFieldDescription=" Salt Amount Per Portion"
                 regex=""/>
             <schemaconfiguration_1513310393
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.633Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.924Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:46:56.500+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.616Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.912Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1601,11 +1607,11 @@
                 pimFieldDescription=" Salt Percentage Per Portion"
                 regex=""/>
             <schemaconfiguration_776539720
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.666Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.940Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:46:58.434+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.647Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.930Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1623,11 +1629,11 @@
                 pimFieldDescription=" Salt Per100gm"
                 regex=""/>
             <schemaconfiguration_1527503322
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.706Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.957Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:51:07.592+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.672Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.947Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1645,11 +1651,11 @@
                 pimFieldDescription=" Saltper100ml"
                 regex=""/>
             <schemaconfiguration_108378544
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.731Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:12.985Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:51:10.090+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.711Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.967Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1667,11 +1673,11 @@
                 pimFieldDescription=" Potassium Amount"
                 regex=""/>
             <schemaconfiguration_1962974799
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.763Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.023Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:51:12.157+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.746Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:12.996Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1689,11 +1695,11 @@
                 pimFieldDescription=" Potassium Percentage"
                 regex=""/>
             <schemaconfiguration_1446014484
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.793Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.041Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:51:13.985+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.779Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.029Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1711,11 +1717,11 @@
                 pimFieldDescription=" Potassium Per100gm"
                 regex=""/>
             <schemaconfiguration_788695604
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.820Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.058Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:51:15.840+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.807Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.047Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1733,11 +1739,11 @@
                 pimFieldDescription=" Total Carbohydrate Amount Per Portion"
                 regex=""/>
             <schemaconfiguration_1204491053
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.855Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.076Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:51:18.588+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.836Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.065Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1755,11 +1761,11 @@
                 pimFieldDescription=" Total Carbohydrate Percentage Per Portion"
                 regex=""/>
             <schemaconfiguration_275402812
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.886Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.093Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:51:20.404+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.863Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.082Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1777,11 +1783,11 @@
                 pimFieldDescription=" Total Carbohydrate Per100g"
                 regex=""/>
             <schemaconfiguration_1865874884
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.914Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.111Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:51:22.387+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.891Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.099Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1799,11 +1805,11 @@
                 pimFieldDescription=" Total Carbohydrate Per100ml"
                 regex=""/>
             <schemaconfiguration_748257172
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.956Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.128Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:51:24.259+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.939Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.117Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1821,11 +1827,11 @@
                 pimFieldDescription=" Dietary Fiber Amount"
                 regex=""/>
             <schemaconfiguration_1455201316
-                cq:lastRolledout="{Date}2016-11-30T16:31:18.980Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.145Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:51:26.220+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.961Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.134Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1843,11 +1849,11 @@
                 pimFieldDescription=" Dietary Fiber Percentage"
                 regex=""/>
             <schemaconfiguration_1668289937
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.012Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.163Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:51:28.584+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:18.992Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.152Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1865,11 +1871,11 @@
                 pimFieldDescription=" Dietary Fiber Per100gm"
                 regex=""/>
             <schemaconfiguration_150830767
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.048Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.180Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:51:34.109+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.031Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.169Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1887,11 +1893,11 @@
                 pimFieldDescription=" Sugars Amount Per Portion"
                 regex=""/>
             <schemaconfiguration_1742031831
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.166Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.197Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:51:36.233+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.065Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.186Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1909,11 +1915,11 @@
                 pimFieldDescription=" Sugars Percentage Per Portion"
                 regex=""/>
             <schemaconfiguration_1166503102
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.191Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.315Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:51:38.594+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.175Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.303Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1931,11 +1937,11 @@
                 pimFieldDescription=" Sugars Per100g "
                 regex=""/>
             <schemaconfiguration_955214296
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.214Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.335Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:51:40.874+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.199Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.323Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1953,11 +1959,11 @@
                 pimFieldDescription=" Sugars Per100ml"
                 regex=""/>
             <schemaconfiguration_1335032189
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.238Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.355Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T15:51:42.930+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.223Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.342Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1975,11 +1981,11 @@
                 pimFieldDescription=" Protein Amount Per Portion"
                 regex=""/>
             <schemaconfiguration_412671841
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.262Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.374Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T16:07:30.355+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.248Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.362Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -1997,11 +2003,11 @@
                 pimFieldDescription=" Protein Percentage Per Portion "
                 regex=""/>
             <schemaconfiguration_439962487
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.287Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.393Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T16:07:32.325+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.272Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.381Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2019,11 +2025,11 @@
                 pimFieldDescription=" Protein Per100gm"
                 regex=""/>
             <schemaconfiguration_444571328
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.305Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.413Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T16:07:34.484+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.296Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.401Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2041,11 +2047,11 @@
                 pimFieldDescription=" Proteinper100ml"
                 regex=""/>
             <schemaconfiguration_1990467681
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.321Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.432Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T16:07:36.491+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.310Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.420Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2063,11 +2069,11 @@
                 pimFieldDescription=" Vitamin A Amount"
                 regex=""/>
             <schemaconfiguration_929698713
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.343Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.451Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T16:07:38.679+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.329Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.439Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2085,11 +2091,11 @@
                 pimFieldDescription=" Vitamin A Percentage"
                 regex=""/>
             <schemaconfiguration_329337507
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.363Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.470Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-23T16:07:41.037+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.350Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.458Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2107,11 +2113,11 @@
                 pimFieldDescription=" Vitamin A Per100gm"
                 regex=""/>
             <schemaconfiguration_2033768057
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.384Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.488Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:26:21.692+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.371Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.476Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2129,11 +2135,11 @@
                 pimFieldDescription=" Vitamin C Amount"
                 regex=""/>
             <schemaconfiguration_1754512750
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.404Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.507Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:26:24.131+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.392Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.495Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2151,11 +2157,11 @@
                 pimFieldDescription=" Vitamin C Percentage"
                 regex=""/>
             <schemaconfiguration_1570348850
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.425Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.526Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:26:26.144+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.412Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.514Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2173,11 +2179,11 @@
                 pimFieldDescription=" Vitamin C Per100gm"
                 regex=""/>
             <schemaconfiguration_1995977871
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.446Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.544Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:30:43.760+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.433Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.533Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2195,11 +2201,11 @@
                 pimFieldDescription=" Calcium Amount"
                 regex=""/>
             <schemaconfiguration_1185359417
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.466Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.562Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:30:45.622+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.453Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.551Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2217,11 +2223,11 @@
                 pimFieldDescription=" Calcium Percentage"
                 regex=""/>
             <schemaconfiguration_1586486904
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.488Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.580Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:30:47.767+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.474Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.568Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2239,11 +2245,11 @@
                 pimFieldDescription=" Calcium Per100gm"
                 regex=""/>
             <schemaconfiguration_232237203
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.508Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.596Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:30:55.273+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.495Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.587Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2261,11 +2267,11 @@
                 pimFieldDescription=" Iron Amount"
                 regex=""/>
             <schemaconfiguration_747363303
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.529Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.612Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:30:57.517+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.516Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.601Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2283,11 +2289,11 @@
                 pimFieldDescription=" Iron Percentage"
                 regex=""/>
             <schemaconfiguration_80716348
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.550Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.630Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:31:01.601+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.537Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.618Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2305,11 +2311,11 @@
                 pimFieldDescription=" Iron Per100gm"
                 regex=""/>
             <schemaconfiguration_363925252
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.570Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.648Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:34:26.528+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.557Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.637Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2327,11 +2333,11 @@
                 pimFieldDescription=" Vitamin D Amount"
                 regex=""/>
             <schemaconfiguration_744021747
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.583Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.667Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:19:21.649+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.575Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.655Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2349,11 +2355,11 @@
                 pimFieldDescription=" Vitamin D Percentage"
                 regex=""/>
             <schemaconfiguration_211764469
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.601Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.685Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:19:53.257+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.590Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.673Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2371,11 +2377,11 @@
                 pimFieldDescription=" Vitamin D Per100gm"
                 regex=""/>
             <schemaconfiguration_706379726
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.621Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.704Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:19:55.473+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.609Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.692Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2393,11 +2399,11 @@
                 pimFieldDescription=" Vitamin E Amount"
                 regex=""/>
             <schemaconfiguration_1725597285
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.642Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.724Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:19:57.504+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.629Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.711Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2415,11 +2421,11 @@
                 pimFieldDescription=" Vitamin E Percentage"
                 regex=""/>
             <schemaconfiguration_672711684
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.662Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.744Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:19:59.988+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.650Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.731Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2437,11 +2443,11 @@
                 pimFieldDescription=" Vitamin E Per100gm"
                 regex=""/>
             <schemaconfiguration_1441616788
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.740Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.764Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:20:04.304+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.670Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.751Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2459,11 +2465,11 @@
                 pimFieldDescription=" Vitamin K Amount"
                 regex=""/>
             <schemaconfiguration_1338980033
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.753Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.784Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:20:07.294+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.745Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.771Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2481,11 +2487,11 @@
                 pimFieldDescription=" Vitamin K Percentage"
                 regex=""/>
             <schemaconfiguration_1540476327
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.767Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.804Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:22:03.389+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.759Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.791Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2503,11 +2509,11 @@
                 pimFieldDescription=" Vitamin K Per100gm"
                 regex=""/>
             <schemaconfiguration_464276592
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.781Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.824Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:22:24.745+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.772Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.811Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2525,11 +2531,11 @@
                 pimFieldDescription=" Thiamin Amount"
                 regex=""/>
             <schemaconfiguration_2021605357
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.795Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.844Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:24:20.499+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.786Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.831Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2547,11 +2553,11 @@
                 pimFieldDescription=" Thiamin Percentage"
                 regex=""/>
             <schemaconfiguration_1118539514
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.809Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.864Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:24:43.510+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.800Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.852Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2569,11 +2575,11 @@
                 pimFieldDescription=" Thiamin Per100gm"
                 regex=""/>
             <schemaconfiguration_1984542284
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.822Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.884Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:24:58.135+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.814Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.872Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2591,11 +2597,11 @@
                 pimFieldDescription=" Riboflavin Amount"
                 regex=""/>
             <schemaconfiguration_2043180449
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.836Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:13.905Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:25:12.683+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.828Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:13.892Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2613,11 +2619,11 @@
                 pimFieldDescription=" Riboflavin Percentage"
                 regex=""/>
             <schemaconfiguration_1430563548
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.850Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.010Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:25:15.249+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.841Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.000Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2635,11 +2641,11 @@
                 pimFieldDescription=" Riboflavin Per100gm"
                 regex=""/>
             <schemaconfiguration_135105475
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.864Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.033Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:25:17.725+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.855Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.018Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2657,11 +2663,11 @@
                 pimFieldDescription=" Niacin Amount"
                 regex=""/>
             <schemaconfiguration_90708045
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.878Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.056Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:25:19.461+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.869Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.041Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2679,11 +2685,11 @@
                 pimFieldDescription=" Niacin Percentage"
                 regex=""/>
             <schemaconfiguration_677846493
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.891Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.079Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:25:21.259+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.883Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.065Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2701,11 +2707,11 @@
                 pimFieldDescription=" Niacin Per100gm"
                 regex=""/>
             <schemaconfiguration_50417288
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.905Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.101Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:26:19.287+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.896Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.087Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2723,11 +2729,11 @@
                 pimFieldDescription=" Vitamin B6 Amount"
                 regex=""/>
             <schemaconfiguration_465603839
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.920Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.125Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:42:08.467+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.910Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.110Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2745,11 +2751,11 @@
                 pimFieldDescription=" Vitamin B6 Percentage"
                 regex=""/>
             <schemaconfiguration_2059231349
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.934Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.148Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:42:10.623+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.925Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.133Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2767,11 +2773,11 @@
                 pimFieldDescription=" Vitamin B6 Per100gm"
                 regex=""/>
             <schemaconfiguration_1858908543
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.948Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.171Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:42:19.138+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.939Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.156Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2789,11 +2795,11 @@
                 pimFieldDescription=" Folic Acid Amount"
                 regex=""/>
             <schemaconfiguration_1819949084
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.962Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.194Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:42:21.047+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.953Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.179Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2811,11 +2817,11 @@
                 pimFieldDescription=" Folic Acid Percentage"
                 regex=""/>
             <schemaconfiguration_561278865
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.975Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.216Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:42:23.013+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.967Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.202Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2833,11 +2839,11 @@
                 pimFieldDescription=" Folic Acid Per100gm"
                 regex=""/>
             <schemaconfiguration_1004470161
-                cq:lastRolledout="{Date}2016-11-30T16:31:19.989Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.266Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:42:25.037+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.980Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.224Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2855,11 +2861,11 @@
                 pimFieldDescription=" Vitamin B12 Amount"
                 regex=""/>
             <schemaconfiguration_1451915359
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.013Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.337Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:42:27.865+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:19.994Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.274Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2877,11 +2883,11 @@
                 pimFieldDescription=" Vitamin B12 Percentage"
                 regex=""/>
             <schemaconfiguration_1248061399
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.027Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.398Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:42:29.755+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.019Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.344Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2899,11 +2905,11 @@
                 pimFieldDescription=" Vitamin B12 Per100gm"
                 regex=""/>
             <schemaconfiguration_123402684
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.041Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.448Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:42:31.965+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.033Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.405Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2921,11 +2927,11 @@
                 pimFieldDescription=" Biotin Amount"
                 regex=""/>
             <schemaconfiguration_325589874
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.055Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.562Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:42:34.188+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.047Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.512Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2943,11 +2949,11 @@
                 pimFieldDescription=" Biotin Percentage"
                 regex=""/>
             <schemaconfiguration_1776371164
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.069Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.595Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:45:00.651+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.061Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.568Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2965,11 +2971,11 @@
                 pimFieldDescription=" Biotin Per100gm"
                 regex=""/>
             <schemaconfiguration_1399514310
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.083Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.628Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:45:03.074+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.074Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.602Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -2987,11 +2993,11 @@
                 pimFieldDescription=" Panothenic Acid Amount"
                 regex=""/>
             <schemaconfiguration_1089137594
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.097Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.651Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:45:48.033+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.088Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.637Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3009,11 +3015,11 @@
                 pimFieldDescription=" Panothenic Acid Percentage"
                 regex=""/>
             <schemaconfiguration_1828288670
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.110Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.671Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:45:50.397+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.102Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.658Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3031,11 +3037,11 @@
                 pimFieldDescription=" Panothenic Acid Per100gm"
                 regex=""/>
             <schemaconfiguration_517688413
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.124Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.690Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:45:53.423+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.116Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.678Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3053,11 +3059,11 @@
                 pimFieldDescription=" Phosphorus Amount"
                 regex=""/>
             <schemaconfiguration_1223839431
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.138Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.738Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:45:56.956+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.129Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.699Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3075,11 +3081,11 @@
                 pimFieldDescription=" Phosphorus Percentage"
                 regex=""/>
             <schemaconfiguration_1239446506
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.152Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.781Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:45:59.223+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.143Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.757Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3097,11 +3103,11 @@
                 pimFieldDescription=" Phosphorus Per100gm"
                 regex=""/>
             <schemaconfiguration_1283795195
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.165Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.835Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:46:01.778+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.157Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.799Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3119,11 +3125,11 @@
                 pimFieldDescription=" Iodine Amount"
                 regex=""/>
             <schemaconfiguration_294296064
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.179Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.890Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:46:05.305+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.171Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.873Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3141,11 +3147,11 @@
                 pimFieldDescription=" Iodine Percentage"
                 regex=""/>
             <schemaconfiguration_664977746
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.193Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.908Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:46:07.411+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.184Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.896Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3163,11 +3169,11 @@
                 pimFieldDescription=" Iodine Per100gm"
                 regex=""/>
             <schemaconfiguration_414843896
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.207Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.926Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:46:09.280+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.198Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.915Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3185,11 +3191,11 @@
                 pimFieldDescription="Magnesium Amount"
                 regex=""/>
             <schemaconfiguration_790556254
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.221Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.945Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:46:11.590+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.212Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.933Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3207,11 +3213,11 @@
                 pimFieldDescription=" Magnesium Percentage"
                 regex=""/>
             <schemaconfiguration_15408375
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.235Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.962Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:46:13.562+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.226Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.951Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3229,11 +3235,11 @@
                 pimFieldDescription=" Magnesium Per100gm"
                 regex=""/>
             <schemaconfiguration_1060463456
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.248Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.981Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:46:15.930+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.240Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.969Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3251,11 +3257,11 @@
                 pimFieldDescription=" Zinc Amount"
                 regex=""/>
             <schemaconfiguration_1526737
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.262Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:14.999Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:46:21.271+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.253Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:14.987Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3273,11 +3279,11 @@
                 pimFieldDescription=" Zinc Percentage"
                 regex=""/>
             <schemaconfiguration_169869109
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.276Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.017Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:46:24.442+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.267Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.006Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3295,11 +3301,11 @@
                 pimFieldDescription=" Zinc Per100gm"
                 regex=""/>
             <schemaconfiguration_1845107573
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.290Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.036Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:46:26.262+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.281Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.024Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3317,11 +3323,11 @@
                 pimFieldDescription=" Selenium Amount"
                 regex=""/>
             <schemaconfiguration_1989175608
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.303Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.057Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:46:28.364+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.295Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.044Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3339,11 +3345,11 @@
                 pimFieldDescription=" Selenium Percentage"
                 regex=""/>
             <schemaconfiguration_151211776
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.317Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.077Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:46:30.316+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.309Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.064Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3361,11 +3367,11 @@
                 pimFieldDescription=" Selenium Per100gm"
                 regex=""/>
             <schemaconfiguration_862792483
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.331Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.097Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:46:33.518+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.322Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.084Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3383,11 +3389,11 @@
                 pimFieldDescription=" Copper Amount"
                 regex=""/>
             <schemaconfiguration_2039016630
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.344Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.117Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:46:36.532+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.336Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.104Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3405,11 +3411,11 @@
                 pimFieldDescription=" Copper Percentage"
                 regex=""/>
             <schemaconfiguration_310215087
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.358Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.138Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:46:38.986+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.350Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.125Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3427,11 +3433,11 @@
                 pimFieldDescription=" Copper Per100gm"
                 regex=""/>
             <schemaconfiguration_346768049
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.443Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.158Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:46:42.404+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.364Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.145Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3449,11 +3455,11 @@
                 pimFieldDescription=" Manganese Amount"
                 regex=""/>
             <schemaconfiguration_344648187
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.464Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.201Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:51:51.619+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.451Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.165Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3471,11 +3477,11 @@
                 pimFieldDescription=" Manganese Percentage"
                 regex=""/>
             <schemaconfiguration_425235065
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.484Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.221Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:51:53.804+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.471Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.208Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3493,11 +3499,11 @@
                 pimFieldDescription=" Manganese Per100gm"
                 regex=""/>
             <schemaconfiguration_1151359777
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.505Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.242Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:51:55.620+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.492Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.229Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3515,11 +3521,11 @@
                 pimFieldDescription=" Chromium Amount"
                 regex=""/>
             <schemaconfiguration_1047740204
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.526Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.261Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:51:57.406+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.513Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.249Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3537,11 +3543,11 @@
                 pimFieldDescription=" Chromium Percentage"
                 regex=""/>
             <schemaconfiguration_510188469
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.546Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.280Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:51:59.090+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.533Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.268Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3559,11 +3565,11 @@
                 pimFieldDescription=" Chromium Per100gm"
                 regex=""/>
             <schemaconfiguration_1673661703
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.567Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.300Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:20.175+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.554Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.287Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3581,11 +3587,11 @@
                 pimFieldDescription=" Molybdenum Amoun"
                 regex=""/>
             <schemaconfiguration_612301869
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.588Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.319Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:22.005+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.575Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.307Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3603,11 +3609,11 @@
                 pimFieldDescription=" Molybdenum Percentage"
                 regex=""/>
             <schemaconfiguration_906662316
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.608Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.338Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:23.767+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.596Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.326Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3625,11 +3631,11 @@
                 pimFieldDescription=" Molybdenum Per100gm"
                 regex=""/>
             <schemaconfiguration_410918633
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.629Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.358Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:25.597+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.616Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.345Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3647,11 +3653,11 @@
                 pimFieldDescription=" Chloride Amount"
                 regex=""/>
             <schemaconfiguration_1456812053
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.649Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.377Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:27.647+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.637Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.365Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3669,11 +3675,11 @@
                 pimFieldDescription=" Chloride Percentage"
                 regex=""/>
             <schemaconfiguration_162698188
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.670Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.397Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:30.724+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.657Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.384Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3691,11 +3697,11 @@
                 pimFieldDescription=" Chloride Per100gm"
                 regex=""/>
             <schemaconfiguration_63272895
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.708Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.415Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:33.014+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.678Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.404Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3713,11 +3719,11 @@
                 pimFieldDescription=" Omega3 Amount"
                 regex=""/>
             <schemaconfiguration_1802106008
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.729Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.435Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:34.968+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.716Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.423Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3735,11 +3741,11 @@
                 pimFieldDescription="Omega3 Percentage"
                 regex=""/>
             <schemaconfiguration_2078069297
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.750Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.455Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:37.435+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.737Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.443Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3757,11 +3763,11 @@
                 pimFieldDescription=" Omega3 Per100gm"
                 regex=""/>
             <schemaconfiguration_189392784
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.770Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.476Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:39.206+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.757Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.463Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3779,11 +3785,11 @@
                 pimFieldDescription=" Omega6 Amount"
                 regex=""/>
             <schemaconfiguration_935786149
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.791Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.496Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:40.989+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.778Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.483Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3801,11 +3807,11 @@
                 pimFieldDescription=" Omega6 Percentage"
                 regex=""/>
             <schemaconfiguration_544550533
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.811Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.517Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:43.263+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.799Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.504Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3823,11 +3829,11 @@
                 pimFieldDescription=" Omega6 Per100gm"
                 regex=""/>
             <schemaconfiguration_1690703080
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.832Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.558Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:46.092+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.819Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.525Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3845,11 +3851,11 @@
                 pimFieldDescription=" Footnote"
                 regex=""/>
             <schemaconfiguration_1114727531
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.853Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.578Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:48.055+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.840Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.565Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3858,6 +3864,7 @@
                 clientSideRendering="{Boolean}false"
                 column="FR"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. This field appears just below the CTA Personalize this gift on PDP page, having short description about the gift."
                 mandatoryDefaultValue=""
@@ -3867,11 +3874,11 @@
                 pimFieldDescription=" Customize Description"
                 regex=""/>
             <schemaconfiguration_1160307616
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.873Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.599Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:50.206+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.860Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.586Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3880,6 +3887,7 @@
                 clientSideRendering="{Boolean}false"
                 column="FS"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. This field appears below the description field which have small description about the product on PDP page."
                 mandatoryDefaultValue=""
@@ -3889,11 +3897,11 @@
                 pimFieldDescription=" Customize Gift Wrap Description"
                 regex=""/>
             <schemaconfiguration_175120787
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.894Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.620Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:51.988+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.881Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.607Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3902,6 +3910,7 @@
                 clientSideRendering="{Boolean}false"
                 column="FT"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Alt text for the gift image, which appears on the Product Gifting page"
                 mandatoryDefaultValue=""
@@ -3911,11 +3920,11 @@
                 pimFieldDescription=" Customize Image Alt Text"
                 regex=""/>
             <schemaconfiguration_1458467937
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.915Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.641Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:54.228+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.902Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.628Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3924,6 +3933,7 @@
                 clientSideRendering="{Boolean}false"
                 column="FU"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. TAB ID to generate the image on Product Gifting Page"
                 mandatoryDefaultValue=""
@@ -3933,11 +3943,11 @@
                 pimFieldDescription=" Customize Image Id"
                 regex=""/>
             <schemaconfiguration_1896982089
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.983Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.663Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:55.920+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.923Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.649Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3946,6 +3956,7 @@
                 clientSideRendering="{Boolean}false"
                 column="FV"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Product price which appears on PDP page"
                 mandatoryDefaultValue=""
@@ -3955,11 +3966,11 @@
                 pimFieldDescription=" Customize Product Price"
                 regex=""/>
             <schemaconfiguration_1273567467
-                cq:lastRolledout="{Date}2016-11-30T16:31:20.998Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.684Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:53:57.734+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:20.989Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.671Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3968,6 +3979,7 @@
                 clientSideRendering="{Boolean}false"
                 column="FW"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Wrapping price appears on Product gifting page (in Total section against Exclusive gift wrap text, just above the Add to shopping basket CTA) when user select one of the wrapping text."
                 mandatoryDefaultValue=""
@@ -3977,11 +3989,11 @@
                 pimFieldDescription="wrapping Price"
                 regex=""/>
             <schemaconfiguration_1160765915
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.012Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.705Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:54:00.381+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.003Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.692Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -3990,6 +4002,7 @@
                 clientSideRendering="{Boolean}false"
                 column="FX"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Length of character allowed in particular field on Product gifting page"
                 mandatoryDefaultValue=""
@@ -3999,11 +4012,11 @@
                 pimFieldDescription="#1 recipients Info Character Count"
                 regex=""/>
             <schemaconfiguration_1739553698
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.025Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.725Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:54:02.421+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.017Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.712Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4012,6 +4025,7 @@
                 clientSideRendering="{Boolean}false"
                 column="FY"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. This should contain either greeting or recipient value"
                 mandatoryDefaultValue=""
@@ -4021,11 +4035,11 @@
                 pimFieldDescription="#1 recipients Info Type"
                 regex=""/>
             <schemaconfiguration_52701726
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.039Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.745Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T12:54:04.359+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.031Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.732Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4034,6 +4048,7 @@
                 clientSideRendering="{Boolean}false"
                 column="FZ"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Length of character allowed in particular field on Product gifting page"
                 mandatoryDefaultValue=""
@@ -4043,11 +4058,11 @@
                 pimFieldDescription="#2 recipients Info Character Count"
                 regex=""/>
             <schemaconfiguration_239109610
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.053Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.765Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T13:39:00.498+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.045Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.752Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4056,6 +4071,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GA"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. This should contain either greeting or recipient value"
                 mandatoryDefaultValue=""
@@ -4065,11 +4081,11 @@
                 pimFieldDescription="#2 recipients Info Type"
                 regex=""/>
             <schemaconfiguration_2130551952
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.070Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.785Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T13:39:02.496+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.059Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.772Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4078,6 +4094,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GB"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. To define ID of each gift wrapper text, also utilized by gift wrap third party"
                 mandatoryDefaultValue=""
@@ -4087,11 +4104,11 @@
                 pimFieldDescription="#1 Wrapper Info Id"
                 regex=""/>
             <schemaconfiguration_237532803
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.084Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.805Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T13:39:04.305+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.075Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.792Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4100,6 +4117,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GC"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Wrapper Image Alt text"
                 mandatoryDefaultValue=""
@@ -4109,11 +4127,11 @@
                 pimFieldDescription="#1 Wrapper Info Image Alt Text"
                 regex=""/>
             <schemaconfiguration_2046139388
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.097Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.825Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T13:39:06.103+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.089Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.812Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4122,6 +4140,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GD"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Text which will appear above the wrapper image on Product gifting page."
                 mandatoryDefaultValue=""
@@ -4131,11 +4150,11 @@
                 pimFieldDescription="#1 Wrapper Info Text"
                 regex=""/>
             <schemaconfiguration_2136903330
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.111Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.845Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T13:40:04.976+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.103Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.832Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4144,6 +4163,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GE"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Gift Wrapper TAB ID, which will fetch image from AEM DAM to display on Product gifting page."
                 mandatoryDefaultValue=""
@@ -4153,11 +4173,11 @@
                 pimFieldDescription="#1 Wrapper Info Wrapper Image"
                 regex=""/>
             <schemaconfiguration_1142743956
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.125Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.865Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T13:40:07.273+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.117Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.852Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4166,6 +4186,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GF"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. To define ID of each gift wrapper text, also utilized by gift wrap third party"
                 mandatoryDefaultValue=""
@@ -4175,11 +4196,11 @@
                 pimFieldDescription="#2 Wrapper Info Id"
                 regex=""/>
             <schemaconfiguration_52258698
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.139Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.911Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T13:40:37.979+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.130Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.898Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4188,6 +4209,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GG"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Wrapper Image Alt text"
                 mandatoryDefaultValue=""
@@ -4197,11 +4219,11 @@
                 pimFieldDescription="#2 Wrapper Info Image Alt Text"
                 regex=""/>
             <schemaconfiguration_1044928329
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.153Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.932Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T13:40:45.290+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.144Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.919Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4210,6 +4232,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GH"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Text which will appear above the wrapper image on Product gifting page."
                 mandatoryDefaultValue=""
@@ -4219,11 +4242,11 @@
                 pimFieldDescription="#2 Wrapper Info Text"
                 regex=""/>
             <schemaconfiguration_439774826
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.167Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.953Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T13:40:47.690+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.158Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.939Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4232,6 +4255,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GI"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Gift Wrapper TAB ID, which will fetch image from AEM DAM to display on Product gifting page."
                 mandatoryDefaultValue=""
@@ -4241,11 +4265,11 @@
                 pimFieldDescription="#2 Wrapper Info Wrapper Image"
                 regex=""/>
             <schemaconfiguration_1824169686
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.181Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.974Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T13:40:50.251+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.172Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.961Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4254,6 +4278,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GJ"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. To define ID of each gift wrapper text, also utilized by gift wrap third party"
                 mandatoryDefaultValue=""
@@ -4263,11 +4288,11 @@
                 pimFieldDescription="#3 Wrapper Info Id"
                 regex=""/>
             <schemaconfiguration_183936565
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.195Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:15.995Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T13:40:52.871+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.186Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:15.982Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4276,6 +4301,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GK"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Wrapper Image Alt text"
                 mandatoryDefaultValue=""
@@ -4285,11 +4311,11 @@
                 pimFieldDescription="#3 Wrapper Info Image Alt Text"
                 regex=""/>
             <schemaconfiguration_1758822103
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.209Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:16.017Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T14:36:21.529+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.200Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:16.003Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4298,6 +4324,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GL"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Text which will appear above the wrapper image on Product gifting page."
                 mandatoryDefaultValue=""
@@ -4307,11 +4334,11 @@
                 pimFieldDescription="#3 Wrapper Info Text"
                 regex=""/>
             <schemaconfiguration_2142474722
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.222Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:16.041Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T14:36:25.005+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.214Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:16.025Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4320,6 +4347,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GM"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Gift Wrapper TAB ID, which will fetch image from AEM DAM to display on Product gifting page."
                 mandatoryDefaultValue=""
@@ -4329,11 +4357,11 @@
                 pimFieldDescription="#3 Wrapper Info Wrapper Image"
                 regex=""/>
             <schemaconfiguration_853661553
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.236Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:16.064Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T14:36:28.273+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.228Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:16.049Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4342,6 +4370,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GN"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. To define ID of each gift wrapper text, also utilized by gift wrap third party"
                 mandatoryDefaultValue=""
@@ -4351,11 +4380,11 @@
                 pimFieldDescription="#4 Wrapper Info Id"
                 regex=""/>
             <schemaconfiguration_107699463
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.260Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:16.086Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T14:36:31.034+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.242Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:16.073Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4364,6 +4393,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GO"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Wrapper Image Alt text"
                 mandatoryDefaultValue=""
@@ -4373,11 +4403,11 @@
                 pimFieldDescription="#4 Wrapper Info Image Alt Text"
                 regex=""/>
             <schemaconfiguration_2006194647
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.274Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:16.108Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T14:36:33.891+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.265Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:16.095Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4386,6 +4416,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GP"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Text which will appear above the wrapper image on Product gifting page."
                 mandatoryDefaultValue=""
@@ -4395,11 +4426,11 @@
                 pimFieldDescription="#4 Wrapper Info Text"
                 regex=""/>
             <schemaconfiguration_1199905828
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.301Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:16.130Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T14:37:55.284+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.279Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:16.117Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4408,6 +4439,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GQ"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Gift Wrapper TAB ID, which will fetch image from AEM DAM to display on Product gifting page."
                 mandatoryDefaultValue=""
@@ -4417,11 +4449,11 @@
                 pimFieldDescription="#4 Wrapper Info Wrapper Image"
                 regex=""/>
             <schemaconfiguration_1908989818
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.328Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:16.167Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T14:37:58.615+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.306Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:16.154Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4430,6 +4462,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GR"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. To define ID of each gift wrapper text, also utilized by gift wrap third party"
                 mandatoryDefaultValue=""
@@ -4439,11 +4472,11 @@
                 pimFieldDescription="#5 Wrapper Info Id"
                 regex=""/>
             <schemaconfiguration_894906076
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.358Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:16.189Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T14:38:01.094+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.333Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:16.176Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4452,6 +4485,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GS"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Wrapper Image Alt text"
                 mandatoryDefaultValue=""
@@ -4461,11 +4495,11 @@
                 pimFieldDescription="#5 Wrapper Info Image Alt Text"
                 regex=""/>
             <schemaconfiguration_1470239137
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.384Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:16.248Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T14:38:03.748+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.363Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:16.212Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4474,6 +4508,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GT"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Text which will appear above the wrapper image on Product gifting page."
                 mandatoryDefaultValue=""
@@ -4483,11 +4518,11 @@
                 pimFieldDescription="#5 Wrapper Info Text"
                 regex=""/>
             <schemaconfiguration_1962937146
-                cq:lastRolledout="{Date}2016-11-30T16:31:21.410Z"
+                cq:lastRolledout="{Date}2016-12-10T15:54:16.286Z"
                 cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-24T14:38:07.467+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-11-30T16:31:21.401Z"
+                jcr:lastModified="{Date}2016-12-10T15:54:16.256Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -4496,6 +4531,7 @@
                 clientSideRendering="{Boolean}false"
                 column="GU"
                 componentName="schemaConfiguration"
+                dataApplicableBrand="true"
                 dataMustContain=""
                 description="Gift wrapping information. Gift Wrapper TAB ID, which will fetch image from AEM DAM to display on Product gifting page."
                 mandatoryDefaultValue=""

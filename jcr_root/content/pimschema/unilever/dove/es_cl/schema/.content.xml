@@ -11,7 +11,7 @@
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Chile"
-        jcr:uuid="acc57eca-1e44-4f2b-8590-35c7b7af3e77"
+        jcr:uuid="8c9bf64d-95be-42b0-b0c1-151437bb341a"
         sling:resourceType="unilever-aem/components/page/schemaConfigurationPage"
         parentProductSchemaPath="/content/productSchemaMarkets/personalCare/CL"
         tenant="whitelabel"
@@ -487,7 +487,7 @@
                 minLength=""
                 pimField="smartProductID"
                 pimFieldDescription="Smart Product Id (ID used for BIN)"
-                regex=""
+                regex="^\\d+$"
                 uniqueValues="true"/>
             <schemaconfiguration_1165773722
                 cq:isCancelledForChildren="{Boolean}true"
@@ -4556,7 +4556,6 @@
                 column="AB"
                 componentName="schemaConfiguration"
                 dataApplicableBrand="true"
-                dataMustContain=""
                 description="Image Format of Asset"
                 mandatoryDefaultValue="png"
                 maxLength=""

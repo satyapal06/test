@@ -2,14 +2,14 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2017-06-07T09:17:15.873Z"
+        cq:lastModified="{Date}2017-03-06T05:46:40.206Z"
         cq:lastModifiedBy="averma27@sapient.com"
         cq:template="/apps/unilever-aem/templates/schemaConfigurationPageTemplate"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Indonesia"
-        jcr:uuid="5c22ac42-2035-4661-8835-1ece9af3b377"
+        jcr:uuid="41627bcc-c84f-406b-ae98-3ee0861e7c2f"
         sling:resourceType="unilever-aem/components/page/schemaConfigurationPage"
         parentProductSchemaPath="/content/productSchemaMarkets/personalCare/ID"
         tenant="whitelabel"
@@ -463,11 +463,11 @@
                 pimFieldDescription="productID"
                 regex=""/>
             <schemaconfiguration_1234915480
-                cq:lastRolledout="{Date}2017-06-07T09:17:15.876Z"
-                cq:lastRolledoutBy="averma27@sapient.com"
+                cq:lastRolledout="{Date}2017-02-09T05:07:08.886Z"
+                cq:lastRolledoutBy="admin"
                 jcr:created="{Date}2016-08-22T17:11:38.450+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-06-07T09:17:15.870Z"
+                jcr:lastModified="{Date}2017-02-09T05:07:08.875Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -484,7 +484,7 @@
                 minLength=""
                 pimField="smartProductID"
                 pimFieldDescription="Smart Product Id (ID used for BIN)"
-                regex=""
+                regex="^\\d+$"
                 uniqueValues="true"/>
             <schemaconfiguration_1165773722
                 cq:lastRolledout="{Date}2017-02-09T05:07:08.899Z"

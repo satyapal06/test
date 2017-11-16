@@ -13,7 +13,7 @@
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Belgium"
-        jcr:uuid="094bbc41-6f0a-40a6-9de1-557dec0ad1c6"
+        jcr:uuid="94e27d9c-a2a5-4919-9bf3-68f02d7a6ff4"
         sling:resourceType="unilever-aem/components/page/schemaConfigurationPage"
         tenant="whitelabel"
         uniquePageId="1389938297259">

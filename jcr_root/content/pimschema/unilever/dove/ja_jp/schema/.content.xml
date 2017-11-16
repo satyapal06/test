@@ -2,14 +2,14 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2017-06-07T09:19:49.236Z"
-        cq:lastModifiedBy="averma27@sapient.com"
+        cq:lastModified="{Date}2017-11-09T08:06:45.858Z"
+        cq:lastModifiedBy="pkritika@sapient.com"
         cq:template="/apps/unilever-aem/templates/schemaConfigurationPageTemplate"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Japan"
-        jcr:uuid="16225919-9a6d-4274-82e2-8686a2c34b43"
+        jcr:uuid="d78b70a7-a540-4a25-a8a5-d7a8ac33fea1"
         sling:resourceType="unilever-aem/components/page/schemaConfigurationPage"
         parentProductSchemaPath="/content/productSchemaMarkets/personalCare/JP"
         tenant="whitelabel"
@@ -423,11 +423,9 @@
                 pimFieldDescription="productID"
                 regex=""/>
             <schemaconfiguration_1234915480
-                cq:lastRolledout="{Date}2017-06-07T09:19:49.239Z"
-                cq:lastRolledoutBy="averma27@sapient.com"
                 jcr:created="{Date}2016-08-22T17:11:38.450+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-06-07T09:19:49.233Z"
+                jcr:lastModified="{Date}2016-11-04T07:55:21.098Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"

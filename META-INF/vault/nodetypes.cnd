@@ -11,8 +11,8 @@
 
 [cq:Page] > nt:hierarchyNode
   orderable primaryitem jcr:content
-  + * (nt:base) = nt:base version
   + jcr:content (nt:base) = nt:unstructured
+  + * (nt:base) = nt:base version
 
 [cq:Taggable]
   mixin
@@ -44,18 +44,18 @@
   - cq:excludedPaths (string) multiple
 
 [cq:LiveSyncConfig]
-  - cq:trigger (string)
   - cq:isDeep (boolean) = 'true'
   - cq:rolloutConfigs (string) multiple
   - cq:master (string) mandatory
+  - cq:trigger (string)
 
 [cq:ReplicationStatus]
   mixin
-  - cq:lastPublishedBy (string) ignore
   - cq:lastReplicatedBy (string) ignore
-  - cq:lastReplicationAction (string) ignore
-  - cq:lastReplicationStatus (string) ignore
   - cq:lastPublished (date) ignore
+  - cq:lastReplicationStatus (string) ignore
+  - cq:lastPublishedBy (string) ignore
+  - cq:lastReplicationAction (string) ignore
   - cq:lastReplicated (date) ignore
 
 [rep:RepoAccessControllable]
@@ -68,17 +68,17 @@
 
 [cq:PageContent] > cq:OwnerTaggable, cq:ReplicationStatus, mix:created, mix:title, nt:unstructured, sling:Resource, sling:VanityPath
   orderable
-  - pageTitle (string)
   - cq:lastModified (date)
-  - jcr:language (string)
+  - pageTitle (string)
+  - cq:template (string)
   - offTime (date)
   - cq:lastModifiedBy (string)
   - hideInNav (boolean)
-  - cq:designPath (string)
-  - cq:template (string)
   - onTime (date)
-  - navTitle (string)
+  - jcr:language (string)
   - cq:allowedTemplates (string) multiple
+  - cq:designPath (string)
+  - navTitle (string)
 
 [sling:VanityPath]
   mixin

@@ -2,8 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2017-06-07T09:20:06.397Z"
-        cq:lastModifiedBy="averma27@sapient.com"
+        cq:lastModified="{Date}2016-11-30T16:36:37.002Z"
+        cq:lastModifiedBy="kneogy@sapient.com"
         cq:lastRolledout="{Date}2016-11-30T16:36:37.010Z"
         cq:lastRolledoutBy="kneogy@sapient.com"
         cq:template="/apps/unilever-aem/templates/schemaConfigurationPageTemplate"
@@ -11,7 +11,7 @@
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Singapore"
-        jcr:uuid="e038e0c5-a896-4357-8082-e6d7662bd635"
+        jcr:uuid="35125e87-2dd9-4709-823e-bbee7fbe05ff"
         sling:resourceType="unilever-aem/components/page/schemaConfigurationPage"
         tenant="whitelabel"
         uniquePageId="1389938297259">
@@ -464,11 +464,11 @@
                 pimFieldDescription="productID"
                 regex=""/>
             <schemaconfiguration_1234915480
-                cq:lastRolledout="{Date}2017-06-07T09:20:06.400Z"
-                cq:lastRolledoutBy="averma27@sapient.com"
+                cq:lastRolledout="{Date}2016-11-30T16:36:32.777Z"
+                cq:lastRolledoutBy="kneogy@sapient.com"
                 jcr:created="{Date}2016-08-22T17:11:38.450+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-06-07T09:20:06.394Z"
+                jcr:lastModified="{Date}2016-11-30T16:36:32.767Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"

@@ -2,14 +2,14 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2017-06-07T09:15:41.696Z"
+        cq:lastModified="{Date}2017-03-06T11:30:39.422Z"
         cq:lastModifiedBy="averma27@sapient.com"
         cq:template="/apps/unilever-aem/templates/schemaConfigurationPageTemplate"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Philippines"
-        jcr:uuid="3a2b502f-048d-43ee-b42a-7122085181a1"
+        jcr:uuid="4afa8f8b-0718-43a3-b231-3f6bbcada196"
         sling:resourceType="unilever-aem/components/page/schemaConfigurationPage"
         parentProductSchemaPath="/content/productSchemaMarkets/personalCare/PH"
         tenant="whitelabel"
@@ -463,11 +463,11 @@
                 pimFieldDescription="productID"
                 regex=""/>
             <schemaconfiguration_1234915480
-                cq:lastRolledout="{Date}2017-06-07T09:15:41.699Z"
-                cq:lastRolledoutBy="averma27@sapient.com"
+                cq:lastRolledout="{Date}2017-03-02T06:57:53.137Z"
+                cq:lastRolledoutBy="pkritika@sapient.com"
                 jcr:created="{Date}2016-08-22T17:11:38.450+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-06-07T09:15:41.694Z"
+                jcr:lastModified="{Date}2017-03-02T06:57:53.132Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
@@ -484,7 +484,7 @@
                 minLength=""
                 pimField="smartProductID"
                 pimFieldDescription="Smart Product Id (ID used for BIN)"
-                regex=""
+                regex="^\\d+$"
                 uniqueValues="true"/>
             <schemaconfiguration_1165773722
                 cq:lastRolledout="{Date}2017-03-02T06:57:53.146Z"

@@ -3,11 +3,11 @@
     jcr:primaryType="rep:ACL">
     <allow
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="dove_fr_be_uat_superauthor"
+        rep:principalName="dove_fr_be_prod_superauthor"
         rep:privileges="{Name}[jcr:versionManagement,jcr:modifyProperties,jcr:read,crx:replicate,jcr:lockManagement]"/>
     <allow0
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="dove_fr_be_uat_superauthor"
+        rep:principalName="dove_fr_be_prod_superauthor"
         rep:privileges="{Name}[jcr:removeChildNodes,jcr:removeNode,jcr:addChildNodes,jcr:nodeTypeManagement]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
@@ -15,6 +15,6 @@
     </allow0>
     <allow1
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="dove_fr_be_uat_author"
+        rep:principalName="dove_fr_be_prod_author"
         rep:privileges="{Name}[jcr:read]"/>
 </jcr:root>

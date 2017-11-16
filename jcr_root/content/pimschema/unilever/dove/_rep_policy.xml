@@ -3,11 +3,11 @@
     jcr:primaryType="rep:ACL">
     <allow
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:read]"/>
     <deny
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
@@ -15,7 +15,7 @@
     </deny>
     <deny0
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
@@ -23,531 +23,507 @@
     </deny0>
     <deny1
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
-        rep:privileges="{Name}[jcr:all]">
-        <rep:restrictions
-            jcr:primaryType="rep:Restrictions"
-            rep:glob="/el_gr_840343553"/>
-    </deny1>
-    <deny2
-        jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/fa_ir"/>
-    </deny2>
-    <deny3
+    </deny1>
+    <deny2
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/sk_sk"/>
-    </deny3>
-    <deny4
+    </deny2>
+    <deny3
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/es_py"/>
-    </deny4>
-    <deny5
+    </deny3>
+    <deny4
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/da_dk"/>
-    </deny5>
-    <deny6
+    </deny4>
+    <deny5
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
-        rep:privileges="{Name}[jcr:all]">
-        <rep:restrictions
-            jcr:primaryType="rep:Restrictions"
-            rep:glob="/uk"/>
-    </deny6>
-    <deny7
-        jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/en_my"/>
-    </deny7>
-    <deny8
+    </deny5>
+    <deny6
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/es_co"/>
-    </deny8>
-    <deny9
+    </deny6>
+    <deny7
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/es_es"/>
-    </deny9>
-    <deny10
+    </deny7>
+    <deny8
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/es_pr"/>
-    </deny10>
-    <deny11
+    </deny8>
+    <deny9
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/cs_cz"/>
-    </deny11>
-    <deny12
+    </deny9>
+    <deny10
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/es_ar"/>
-    </deny12>
-    <deny13
+    </deny10>
+    <deny11
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/iw_il"/>
-    </deny13>
-    <deny14
+    </deny11>
+    <deny12
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
-        rep:privileges="{Name}[jcr:all]">
-        <rep:restrictions
-            jcr:primaryType="rep:Restrictions"
-            rep:glob="/es_ec"/>
-    </deny14>
-    <deny15
-        jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/fr_ch"/>
-    </deny15>
-    <deny16
+    </deny12>
+    <deny13
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/en_ir"/>
-    </deny16>
-    <deny17
+    </deny13>
+    <deny14
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/pt_br"/>
-    </deny17>
-    <deny18
+    </deny14>
+    <deny15
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/es_cl"/>
-    </deny18>
-    <deny19
+    </deny15>
+    <deny16
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/ru_ru"/>
-    </deny19>
-    <deny20
+    </deny16>
+    <deny17
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/sr_rs"/>
-    </deny20>
-    <deny21
+    </deny17>
+    <deny18
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
+        rep:privileges="{Name}[jcr:all]">
+        <rep:restrictions
+            jcr:primaryType="rep:Restrictions"
+            rep:glob="/en_nz"/>
+    </deny18>
+    <deny19
+        jcr:primaryType="rep:DenyACE"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/it_it"/>
-    </deny21>
-    <deny22
+    </deny19>
+    <deny20
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/fr_be"/>
-    </deny22>
-    <deny23
+    </deny20>
+    <deny21
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
-        rep:privileges="{Name}[jcr:all]">
-        <rep:restrictions
-            jcr:primaryType="rep:Restrictions"
-            rep:glob="/fr_ca"/>
-    </deny23>
-    <deny24
-        jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/ja_jp"/>
-    </deny24>
-    <deny25
+    </deny21>
+    <deny22
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/de_at"/>
-    </deny25>
-    <deny26
+    </deny22>
+    <deny23
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/fi_fi"/>
-    </deny26>
-    <deny27
+    </deny23>
+    <deny24
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/es_us"/>
-    </deny27>
-    <deny28
+    </deny24>
+    <deny25
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/sv_se"/>
-    </deny28>
-    <deny29
+    </deny25>
+    <deny26
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/de_ch"/>
-    </deny29>
-    <deny30
+    </deny26>
+    <deny27
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
-        rep:privileges="{Name}[jcr:all]">
-        <rep:restrictions
-            jcr:primaryType="rep:Restrictions"
-            rep:glob="/testco"/>
-    </deny30>
-    <deny31
-        jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/pt_pt"/>
-    </deny31>
-    <deny32
+    </deny27>
+    <deny28
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/indonesia"/>
-    </deny32>
-    <deny33
+    </deny28>
+    <deny29
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/germany"/>
-    </deny33>
-    <deny34
+    </deny29>
+    <deny30
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/nl_be"/>
-    </deny34>
-    <deny35
+    </deny30>
+    <deny31
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/zh_tw"/>
-    </deny35>
-    <deny36
+    </deny31>
+    <deny32
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/hr_hr"/>
-    </deny36>
-    <deny37
+    </deny32>
+    <deny33
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/en_ca"/>
-    </deny37>
-    <deny38
+    </deny33>
+    <deny34
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/es_mx"/>
-    </deny38>
-    <deny39
+    </deny34>
+    <deny35
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/en_sa"/>
-    </deny39>
-    <deny40
+    </deny35>
+    <deny36
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/bg_bg"/>
-    </deny40>
-    <deny41
+    </deny36>
+    <deny37
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/es_uy"/>
-    </deny41>
-    <deny42
+    </deny37>
+    <deny38
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/ar_eg"/>
-    </deny42>
-    <deny43
+    </deny38>
+    <deny39
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/nl_nl"/>
-    </deny43>
-    <deny44
+    </deny39>
+    <deny40
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/uk_ua"/>
-    </deny44>
-    <deny45
+    </deny40>
+    <deny41
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/es_pe"/>
-    </deny45>
-    <deny46
+    </deny41>
+    <deny42
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/pl_pl"/>
-    </deny46>
-    <deny47
+    </deny42>
+    <deny43
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
-            rep:glob="/test"/>
-    </deny47>
-    <deny48
+            rep:glob="/tr_tr"/>
+    </deny43>
+    <deny44
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/en_za"/>
-    </deny48>
-    <deny49
+    </deny44>
+    <deny45
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
-            rep:glob="/rs_rs"/>
-    </deny49>
-    <deny50
+            rep:glob="/en_au"/>
+    </deny45>
+    <deny46
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/si_si"/>
-    </deny50>
-    <deny51
+    </deny46>
+    <deny47
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/es_bo"/>
-    </deny51>
-    <deny52
+    </deny47>
+    <deny48
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/en_in"/>
-    </deny52>
-    <deny53
+    </deny48>
+    <deny49
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/en_us"/>
-    </deny53>
-    <deny54
+    </deny49>
+    <deny50
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/en_pk"/>
-    </deny54>
-    <deny55
+    </deny50>
+    <deny51
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/en_lb"/>
-    </deny55>
-    <deny56
+    </deny51>
+    <deny52
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/en_sg"/>
-    </deny56>
-    <deny57
+    </deny52>
+    <deny53
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/ro_ro"/>
-    </deny57>
-    <deny58
+    </deny53>
+    <deny54
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
+        rep:privileges="{Name}[jcr:all]">
+        <rep:restrictions
+            jcr:primaryType="rep:Restrictions"
+            rep:glob="/vi_vn"/>
+    </deny54>
+    <deny55
+        jcr:primaryType="rep:DenyACE"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/zh_hk"/>
-    </deny58>
-    <deny59
+    </deny55>
+    <deny56
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/fil_ph"/>
-    </deny59>
-    <deny60
+    </deny56>
+    <deny57
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/ar_sa"/>
-    </deny60>
-    <deny61
+    </deny57>
+    <deny58
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/el_gr"/>
-    </deny61>
-    <deny62
+    </deny58>
+    <deny59
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/bs_ba"/>
-    </deny62>
-    <deny63
+    </deny59>
+    <deny60
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/en_bd"/>
-    </deny63>
-    <deny64
+    </deny60>
+    <deny61
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="dove_uat_parent"
+        rep:principalName="dove_prod_parent"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="/hu_hu"/>
-    </deny64>
+    </deny61>
     <allow0
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="dove_global_uat_superauthor"
+        rep:principalName="dove_global_prod_superauthor"
         rep:privileges="{Name}[jcr:read]"/>
     <allow1
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="dove_global_uat_author"
+        rep:principalName="dove_global_prod_author"
         rep:privileges="{Name}[jcr:read]"/>
     <allow2
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="dove_global_uat_superuser"
+        rep:principalName="dove_global_prod_superuser"
         rep:privileges="{Name}[jcr:versionManagement,jcr:modifyProperties,jcr:read,jcr:lockManagement]"/>
     <allow3
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="dove_global_uat_superuser"
+        rep:principalName="dove_global_prod_superuser"
         rep:privileges="{Name}[jcr:removeChildNodes,jcr:removeNode,jcr:addChildNodes,jcr:nodeTypeManagement]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"

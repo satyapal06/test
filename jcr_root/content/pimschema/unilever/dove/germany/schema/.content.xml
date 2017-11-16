@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2017-03-03T11:12:33.597Z"
+        cq:lastModified="{Date}2017-03-06T05:45:57.891Z"
         cq:lastModifiedBy="averma27@sapient.com"
         cq:template="/apps/unilever-aem/templates/schemaConfigurationPageTemplate"
         jcr:isCheckedOut="{Boolean}true"
@@ -11,7 +11,7 @@
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Germany"
-        jcr:uuid="495acaab-1d92-48b0-b2a9-578ee43b32c5"
+        jcr:uuid="6cda014b-3fde-452b-8807-79ceb970cf1e"
         sling:resourceType="unilever-aem/components/page/schemaConfigurationPage"
         parentProductSchemaPath="/content/productSchemaMarkets/personalCare/DE"
         tenant="whitelabel"
@@ -4555,7 +4555,6 @@
                 column="AB"
                 componentName="schemaConfiguration"
                 dataApplicableBrand="true"
-                dataMustContain=""
                 description="Image Format of Asset"
                 mandatoryDefaultValue="png"
                 maxLength=""
