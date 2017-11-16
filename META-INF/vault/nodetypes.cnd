@@ -1,0 +1,100 @@
+<'sling'='http://sling.apache.org/jcr/sling/1.0'>
+<'cq'='http://www.day.com/jcr/cq/1.0'>
+<'nt'='http://www.jcp.org/jcr/nt/1.0'>
+<'jcr'='http://www.jcp.org/jcr/1.0'>
+<'rep'='internal'>
+<'mix'='http://www.jcp.org/jcr/mix/1.0'>
+
+[sling:Resource]
+  mixin
+  - sling:resourceType (string)
+
+[cq:Page] > nt:hierarchyNode
+  orderable primaryitem jcr:content
+  + * (nt:base) = nt:base version
+  + jcr:content (nt:base) = nt:unstructured
+
+[cq:Taggable]
+  mixin
+  - cq:tags (string) multiple
+
+[cq:LiveSyncCancelled] > cq:LiveRelationship
+  mixin
+  - cq:isCancelledForChildren (boolean)
+
+[cq:LiveRelationship]
+  mixin
+  - cq:lastRolledout (date)
+  - cq:lastRolledoutBy (string)
+
+[sling:OrderedFolder] > sling:Folder
+  orderable
+  + * (nt:base) = sling:OrderedFolder version
+
+[sling:Folder] > nt:folder
+  - * (undefined) multiple
+  - * (undefined)
+  + * (nt:base) = sling:Folder version
+
+[cq:LiveCopy] > cq:LcPathFilter, cq:LiveSyncConfig
+  - cq:moveTarget (string)
+
+[cq:LcPathFilter]
+  mixin
+  - cq:excludedPaths (string) multiple
+
+[cq:LiveSyncConfig]
+  - cq:trigger (string)
+  - cq:isDeep (boolean) = 'true'
+  - cq:rolloutConfigs (string) multiple
+  - cq:master (string) mandatory
+
+[cq:ReplicationStatus]
+  mixin
+  - cq:lastPublishedBy (string) ignore
+  - cq:lastReplicatedBy (string) ignore
+  - cq:lastReplicationAction (string) ignore
+  - cq:lastReplicationStatus (string) ignore
+  - cq:lastPublished (date) ignore
+  - cq:lastReplicated (date) ignore
+
+[rep:RepoAccessControllable]
+  mixin
+  + rep:repoPolicy (rep:Policy) protected ignore
+
+[sling:Redirect] > sling:Resource
+  mixin
+  - sling:target (undefined)
+
+[cq:PageContent] > cq:OwnerTaggable, cq:ReplicationStatus, mix:created, mix:title, nt:unstructured, sling:Resource, sling:VanityPath
+  orderable
+  - pageTitle (string)
+  - cq:lastModified (date)
+  - jcr:language (string)
+  - offTime (date)
+  - cq:lastModifiedBy (string)
+  - hideInNav (boolean)
+  - cq:designPath (string)
+  - cq:template (string)
+  - onTime (date)
+  - navTitle (string)
+  - cq:allowedTemplates (string) multiple
+
+[sling:VanityPath]
+  mixin
+  - sling:vanityPath (string) multiple
+  - sling:redirect (boolean)
+  - sling:vanityOrder (long)
+  - sling:redirectStatus (long)
+
+[cq:OwnerTaggable] > cq:Taggable
+  mixin
+
+[cq:LiveSync] > cq:LiveRelationship
+  orderable mixin
+  + cq:LiveSyncConfig (nt:base) = cq:LiveSyncConfig
+
+[cq:PropertyLiveSyncCancelled] > cq:LiveRelationship
+  mixin
+  - cq:propertyInheritanceCancelled (string) multiple
+
